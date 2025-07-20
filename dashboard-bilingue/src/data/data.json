@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "month": "Jan", "riz": 2.5, "poisson": 1.8 },
+    { "month": "Feb", "riz": 2.8, "poisson": 2.0 },
+    { "month": "Mar", "riz": 3.1, "poisson": 2.1 }
+  ]
+}
