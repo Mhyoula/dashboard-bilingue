@@ -10,7 +10,7 @@ const LanguageSwitcher = () => {
         {t("selectLanguage")} :
         <select onChange={(e) => i18n.changeLanguage(e.target.value)} value={i18n.language}>
           <option value="fr">🇫🇷 Français</option>
-          <option value="en">🇬🇧 English</option>
+          <option value="en">🇺🇸 English</option>
         </select>
       </label>
     </div>
