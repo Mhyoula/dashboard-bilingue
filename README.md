@@ -1,12 +1,86 @@
-# React + Vite
+# 🌍 FoodBoard – Tableau de bord interactif bilingue
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FoodBoard** est une application React interactive et bilingue (Français/Anglais) qui permet de visualiser l’évolution des prix de produits alimentaires essentiels comme le riz et le poisson, sur une période donnée.
 
-Currently, two official plugins are available:
+## 🚀 Démo en ligne
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Accéder au site FoodBoard](https://foodboardb.netlify.app)
 
-## Expanding the ESLint configuration
+## 📊 Objectif
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+L’objectif est de présenter un tableau de bord simple, épuré et accessible, intégrant :
+- des **graphiques dynamiques** (ligne et barres)
+- un **sélecteur de langue** (FR / EN)
+- la conversion de **devises** (CAD / EUR)
+- la sélection de **périodes** et **unités** (kg / lb)
+
+## 🧑‍🎓 Réalisé par
+
+- **Nom :** [Ton Nom Ici]  
+- **Numéro étudiant :** [Ton Numéro]
+
+## 📁 Structure du projet
+
+├── public/
+│ ├── logo.svg
+│ └── vite.svg
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── data/
+│ ├── i18n/
+│ └── App.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+markdown
+Copier
+Modifier
+
+## 📦 Technologies utilisées
+
+- React 19
+- Vite.js
+- Recharts
+- i18next / react-i18next
+- CSS (style custom responsive)
+
+## 🌐 Internationalisation (i18n)
+
+- Français 🇫🇷
+- Anglais 🇬🇧  
+Les traductions ont été faites manuellement. La structure est facilement extensible pour d’autres langues.
+
+## 🧠 Inspirations
+
+- [Our World In Data](https://ourworldindata.org/)
+- [Chart.js Dashboards](https://www.chartjs.org/)
+- [Recharts](https://recharts.org/en-US/)
+
+## 🧪 Lancer en local
+
+```bash
+git clone https://github.com/Mhyoula/dashboard-bilingue.git
+cd dashboard-bilingue
+npm install
+npm run dev
+🛠️ Build pour Netlify
+bash
+Copier
+Modifier
+npm run build
+Dossier de publication : dist/
+
+🤖 Générative AI (reconnaissance)
+L'IA générative (ChatGPT) a été utilisée pour :
+
+générer les premières descriptions textuelles du tableau de bord
+
+aider à structurer le code React / i18n
+
+proposer des styles CSS responsives
+
+rédiger ce README.md
+
+Projet réalisé dans le cadre du cours SEG3525 – Conception et analyse d'interfaces usagers à l’Université d’Ottawa.
