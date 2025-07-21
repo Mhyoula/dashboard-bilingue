@@ -16,8 +16,8 @@ L’objectif est de présenter un tableau de bord simple, épuré et accessible,
 
 ## 🧑‍🎓 Réalisé par
 
-- **Nom :** [Ton Nom Ici]  
-- **Numéro étudiant :** [Ton Numéro]
+- **Nom :** Marie Haby Youla 
+- **Numéro étudiant :** 300388603
 
 ## 📁 Structure du projet
 
@@ -34,9 +34,7 @@ L’objectif est de présenter un tableau de bord simple, épuré et accessible,
 ├── package.json
 └── vite.config.js
 
-markdown
-Copier
-Modifier
+
 
 ## 📦 Technologies utilisées
 
@@ -49,7 +47,7 @@ Modifier
 ## 🌐 Internationalisation (i18n)
 
 - Français 🇫🇷
-- Anglais 🇬🇧  
+- Anglais us  
 Les traductions ont été faites manuellement. La structure est facilement extensible pour d’autres langues.
 
 ## 🧠 Inspirations
@@ -60,17 +58,12 @@ Les traductions ont été faites manuellement. La structure est facilement exten
 
 ## 🧪 Lancer en local
 
-```bash
 git clone https://github.com/Mhyoula/dashboard-bilingue.git
 cd dashboard-bilingue
 npm install
 npm run dev
 🛠️ Build pour Netlify
-bash
-Copier
-Modifier
-npm run build
-Dossier de publication : dist/
+
 
 🤖 Générative AI (reconnaissance)
 L'IA générative (ChatGPT) a été utilisée pour :
